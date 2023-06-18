@@ -1,9 +1,9 @@
 haproxy_appservers:
   - name: serverb.lab.example.com
-    ip: 172.25.250.11
+    ip: 192.168.100.11
     backend_port: 81
 
   - name: serverc.lab.example.com
-    ip: 172.25.250.12
+    ip: 192.168.100.12
     backend_port: 81
 
